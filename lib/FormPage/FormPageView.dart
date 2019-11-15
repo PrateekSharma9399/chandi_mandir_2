@@ -9,6 +9,7 @@ class FormPageView extends StatefulWidget {
 class _FormPageViewState extends State<FormPageView> {
 
   Widget createTextField(String title){
+    
     return Padding(padding: const EdgeInsets.fromLTRB(10, 20, 10, 10),
       child: TextField(
         cursorColor: primaryColor,
