@@ -184,6 +184,7 @@ class _HomePageViewState extends State<HomePageView> {
                         fontSize: 30.0,
                         fontFamily: 'Lobster',
                         fontWeight: FontWeight.w900,
+                        color: Colors.white,
                       ),
                     ),
                   ),

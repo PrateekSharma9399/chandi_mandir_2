@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'HomePage/homePageView.dart';
+//import 'FormPage/FormPageView.dart';
 Color primaryAccent = Color(0xffEFB136);
 Color primaryColor = Color(0xff0D6526);
 
@@ -21,7 +22,7 @@ class MyApp extends StatelessWidget {
         // or simply save your changes to "hot reload" in a Flutter IDE).
         // Notice that the counter didn't reset back to zero; the application
         // is not restarted.
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.lime,
       ),
       home: HomePageView(),
     );
