@@ -14,10 +14,15 @@ class _HomePageViewState extends State<HomePageView> {
       String description,
       String timing,
       String venue}) {
-    name = "N A M E";
+    if(name == null)
+      name = "N A M E";
+    if(url == null)
     url = "https://images8.alphacoders.com/388/thumb-350-388531.jpg";
+    if(description == null)
     description = "Description";
+    if(timing == null)
     timing = "Time of the Event";
+    if(venue == null)
     venue = "Theatre 1";
 
     return Row(
@@ -188,7 +193,7 @@ class _HomePageViewState extends State<HomePageView> {
                     Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
-                        createCard(),
+                        createCard(name: "Chhichhore", description: "Bekaar Film, Mat Dekho.",timing: "Kal",venue: "Apne apne gharo pe"),
                         createCard(),
                         createCard(),
                         createCard(),
